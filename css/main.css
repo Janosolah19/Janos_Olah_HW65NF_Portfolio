@@ -1,0 +1,135 @@
+body{
+	background-color: #DCDCDC; 
+	font-size: 16px;
+	font-family: 'Exo 2', sans-serif;
+
+}
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin: 1rem;
+	padding:.5rem;
+}
+
+/*details*/
+	details{
+		background-color: #F5F5F5;
+		margin: 1rem;
+		padding: .75rem;
+		border-radius: 10px;
+
+		-webkit-box-shadow: 2px  #708090;
+			-moz-box-shadow: 2px  #708090;
+			box-shadow:  2px  #708090;
+
+
+ }
+
+ details:nth-child(even){
+	background-color: #C0C0C0;
+ }
+ details.tovabb1{
+	margin: .5rem .75rem;
+	border: 1px solid black;
+ }
+ summary{
+	cursor: pointer;
+ }
+/*detail_*/
+
+/*header*/
+
+	 header.cim{
+	 	font-size: 3rem;
+	 	text-align: center;
+	 }
+	 .cim{
+	 	color: red;
+	 }
+
+	 header.tanulmanyok{
+	 	font-size: 2rem;
+		text-align: center;
+
+	 }
+	 header.Sport{
+	 	font-size: 2rem;
+		text-align: center;
+
+	 }
+	 header.Elkeszites{
+	 	font-size: 2rem;
+		text-align: center;
+	 }
+
+/*header_*/
+
+/*footer*/
+	footer{
+		background-color: #696969;
+		line-height: 2.5rem;
+		max-height: 12rem;
+
+
+	}
+
+	footer a{
+		font-size: .8rem;
+		margin: .5rem;
+		color: white;
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	footer a:hover{
+		text-decoration: underline;
+	}
+
+	#lablec{
+		padding-left: 1.5rem;
+		border-bottom: 1px solid white;
+	}
+	#lablec_alja{
+		padding: 0px .5rem;
+		text-align: center;
+	}
+	#lablec_alja div{
+		display: inline-block;
+	}	
+/*footer_*/	
+
+/*kepek*/
+
+	.kep_kartya .kep{
+		height: 10rem;
+		background-color: rgba(0,0,0,.05);
+		text-align: center;
+	}
+
+	.kep_kartya .kep img{
+		height: 100%;
+		width: 100%;
+		object-fit: contain
+	}
+	.kep_kartya p{
+		font-size: 1.5rem;
+	}
+
+
+/*kepek_*/
+
+/*egyeb*/
+	
+	.terv {
+		font-size: 1.5rem
+	}
+	.nehéz {
+		font-size: 1.5rem
+	}
+	.forr {
+		font-size: 1.5rem
+	}
+
+	 .foci {
+ 	font-size: 1.3rem;
+ 	}
+/*egyeb_*/
